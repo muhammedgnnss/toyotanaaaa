@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --siyah:#000;
+    --beyaz:#fff;
+    --seffaf: rgba(165, 151, 151, 0.5);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+    grid-template-rows: 80px 700px 80px ;
+    gap: 5px;
+    background:no-repeat center/ cover url(/muhammedEmin/images/toyotamavi.jpeg)
+
+}
+
+
+    header{
+        font-family: 'DM Sans', sans-serif;
+        display: flex;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        flex: 1 1 100%;
+        flex-wrap: wrap;
+        
+
+}
+header>.ara
+{
+display: flex;
+width: 60px;
+gap: 5px;
+margin-left: 650px;
+
+
+
+}
+header>.ara>#txtUsername
+{
+height: 40px;
+width: 130px;
+border-radius: 15px;
+
+}
+header>.ara>:nth-child(2)
+{
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+header > img{
+ width: 85px;
+ height: 85px;
+}
+header > .baslık{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+   
+}
+header > .baslık > a{
+    margin-left: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+header > .baslık > a:hover{
+    color: rgb(255, 0, 0);
+}
+main
+{
+display: flex;
+flex-direction: column;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+main>h1
+{
+display: flex;
+margin-top: 220px;
+margin-left: 200px;
+font-size: 65px;
+color: white;
+}
+main>h2
+{
+display: flex;
+margin-left:200px;
+font-size:40px ;
+color: white;
+}
+main>h3
+{
+display: flex;
+width: 600px;
+margin-left: 200px;
+margin-top: 30px;
+font-size: 23px;
+color: white;
+}
+main>a
+{
+    color: white;
+    border: white 4px solid;
+    border-radius: 20px;
+    width: 140px;
+
+    text-decoration: none;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 190px;
+    margin-top: 35px;
+    padding: 5px;
+}
+main>a:hover
+{
+color: rgb(43, 92, 228);
+border: rgb(43, 92, 228)4px solid;
+
+}
